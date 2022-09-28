@@ -1,0 +1,138 @@
+  body {
+    margin: 0;
+    height: 100vh;
+    background-color: #eee;
+  }
+  /* * {
+    border: 1px solid #333;
+  }  */
+  .flex {
+    display: flex;
+    height: 100vh;
+  }
+  /* ռ������ */
+  .flex1 {
+    flex: 1;
+  }
+  .flex2 {
+    flex: 2;
+  }
+  .flex3 {
+	  flex: 3;
+  }
+  /* ���� */
+  .column {
+    flex-direction: column;
+  }
+  /* ��Ӱ */
+  .yinYing {
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+      rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+  }
+  /* ��ɫ���� */
+  .baiSe {
+    background-color: #fff;
+  }
+  /* �����������߾� */
+  .mg8 {
+    margin: 8px;
+  }
+  /* �����߾� */
+  .mgr8 {
+    margin-right: 8px;
+  }
+  /* �����߾� */
+  .mgt8 {
+    margin-top: 8px;
+  }
+  .mgts {
+	  margin-top: 0px;
+  }
+  /* �ĸ�С���� */
+  .shuJu {
+    height: 100px;
+  }
+  /* �м��Ĵ����� */
+  .lieBiaoXiang {
+    height: 160px;
+  }
+  /* ������ */
+  .daoHang {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    font-size: 14px;
+    color: #666;
+  }
+  .neiRong::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+  }
+
+  /* ����Ļ����С��600pxʱҪ�ı���css */
+  @media (max-width: 600px) {
+    /* С��Ļ��ȡ��������������ѧjsʱ������ô���� */
+    .ceBian {
+      display: none;
+    }
+    /* ��������������flex������Ϊ���� */
+    .neiRong {
+      flex-direction: column;
+    }
+	.zhuzhoushuipingfangxiang {
+		flex-direction: row;
+	}
+    .shuJuQu {
+      flex-direction: column;
+    }
+    /* �����������߾� */
+    .youQu {
+      margin-left: 8px;
+    }
+    /* ���ݿ����߾࣬��С��Ϊ�Զ����� */
+    .shuJu {
+      margin: 0 0 8px;
+      flex: auto;
+    }
+    .zhuzhouduiqi {
+      justify-content: center;
+    }
+    .jioachaduiqi {
+      align-items: center;
+    }
+    .bg {
+      background-color: aqua;
+    }
+  }
+.divtupian {
+              /*ͼƬ��ַ ���ظ� ˮƽλ�þ��� ��ֱλ�þ���*/
+              background: url("./img/we1.png") no-repeat center center;
+              height: 100%;
+              width: 100%;
+              /*�ѱ���ͼƬ�Ŵ����ʺ�Ԫ�������ĳߴ磬ͼƬ��������*/
+              background-size:cover;
+              position:absolute;
+              left:0;
+              top:0;
+          }
+.imgtupian {
+            width: 100%;
+            height: 100%;
+            /*Ԫ�ص�λ�������������������ǹ̶�λ��*/
+           /* position:fixed; */
+            /* left: 0;
+            top: 0; */
+}
+.bodytupian {
+            background:url(1.png) no-repeat;
+            /*�ѱ���ͼƬ�Ŵ����ʺ�Ԫ�������ĳߴ磬ͼƬ��������*/
+            background-size:cover;
+        }
+.daohanglan {
+	 position: absolute;
+	 /* z-index: 2; */
+	 left: 10px;
+	 top: 15px;
+	 font-size: 30px;
+	 color: aqua;
+}
+
+
